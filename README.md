@@ -4,18 +4,17 @@
 ## Instalasi
 
 # Backend (Laravel)
-composer require incodiy/routemaps
+    composer require incodiy/routemaps
 
 # Frontend (React)
-npm install @incodiy/routemaps-react
+    npm install @incodiy/routemaps-react
 
 # React Native
-npm install @incodiy/routemaps-react-native
+    npm install @incodiy/routemaps-react-native
 
 
 ## Penggunaan
-
-// Contoh React
+    
     import { MapContainer } from '@incodiy/routemaps-react';
     
     function App() {
