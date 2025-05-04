@@ -1,8 +1,8 @@
 # RouteMaps Package
-![CI Status](https://github.com/username/incodiy-routemaps/actions/workflows/ci.yml/badge.svg)
+![CI Status](https://github.com/uincodiy/routemaps/actions/workflows/ci.yml/badge.svg)
 
 ## Instalasi
-```bash
+
 # Backend (Laravel)
 composer require incodiy/routemaps
 
@@ -16,21 +16,20 @@ npm install @incodiy/routemaps-react-native
 ## Penggunaan
 
 // Contoh React
-import { MapContainer } from '@incodiy/routemaps-react';
-
-function App() {
-  return (
-    <MapContainer 
-      start={[-6.2, 106.8]}
-      end={[-6.3, 106.9]}
-    />
-  );
-}
+    import { MapContainer } from '@incodiy/routemaps-react';
+    
+    function App() {
+      return (
+        <MapContainer 
+          start={[-6.2, 106.8]}
+          end={[-6.3, 106.9]}
+        />
+      );
+    }
 
 
 # 10. Verifikasi Akhir
 1. Pastikan semua file telah tercommit:
-```bash
 git status
 
 2. Cek struktur direktori:
