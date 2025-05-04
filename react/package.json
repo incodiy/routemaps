@@ -1,0 +1,22 @@
+{
+  "name": "@incodiy/routemaps-react",
+  "version": "1.0.0",
+  "description": "React components for RouteMaps system",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prepare": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-leaflet": "^4.0.0",
+    "leaflet": "^1.7.1"
+  },
+  "devDependencies": {
+    "rollup": "^2.60.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}

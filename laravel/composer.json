@@ -1,0 +1,21 @@
+{
+    "name": "incodiy/routemaps",
+    "description": "Laravel package for route mapping and tracking system",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "IncoDIY\Routemaps\": "src/IncoDIY/Routemaps/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "IncoDIY\Routemaps\RoutemapsServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}
