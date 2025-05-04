@@ -26,19 +26,3 @@ npm install @incodiy/routemaps-react-native
         />
       );
     }
-
-
-# 10. Verifikasi Akhir
-1. Pastikan semua file telah tercommit:
-git status
-
-2. Cek struktur direktori:
-tree -L 3 -a
-
-3. Tes instalasi lokal:
-# Di direktori contoh Laravel
-composer config repositories.routemaps path ../laravel
-composer require incodiy/routemaps:@dev
-
-# Di direktori contoh React
-npm link ../react
